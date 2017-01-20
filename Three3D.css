@@ -1,0 +1,104 @@
+html{filter:progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);}
+/*#child{
+		width: 500px;
+		height: 500px;
+		margin: 0 auto;
+		background-color:#000875;
+		transition: background-color 3s,width 3s,height 3s
+		-webkit-transition-property:background-color;
+		-webkit-transition-duration:3s;
+	}
+	#child:hover{
+		background-color:red;
+		width:20px;
+		height:20px;
+	}
+	#parent{
+		-webkit-perspective:800;
+		-webkit-perspective-origin:50% 50%;
+		-webkit-transform:-webkit-preserve-3d;
+	}
+	#child{
+		width: 500px;
+		height: 500px;
+		background-color: #000875;
+		margin:0 auto;
+		-webkit-transform:rotateX(45deg);
+	}*/
+	#pagegroup{
+		width:200px;
+		height:200px;
+		color:#fff;
+		font-size: 180px;
+		text-align: center;
+		-webkit-transform-style:-webkit-preserve-3d;
+		position: relative;
+		margin: 0 auto;
+	}
+	.dodolook img{
+		/*  -webkit-filter: grayscale(100%);  
+   -moz-filter: grayscale(100%);  
+   -ms-filter: grayscale(100%);  
+   -o-filter: grayscale(100%);      
+   filter: grayscale(100%);   
+filter: url(zy.svg#grayscale);
+filter:gray;*/
+	}
+	.dodolook img:hover{
+		 /*-webkit-filter: grayscale(0);  
+    -moz-filter: grayscale(0);  
+    -ms-filter: grayscale(0);  
+    -o-filter: grayscale(0);      
+    filter: grayscale(0);     
+    filter: url(zy.svg#grayscale);
+	filter:gray;*/
+
+	}
+	#my3dpage{
+	margin:0 auto;
+	-webkit-perspective:800;
+	overflow: hidden;
+	/*-webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    
+    filter: grayscale(100%);
+	
+    filter: gray;*/
+	}
+	.page{
+		text-align: center;
+		position: absolute;
+		background-color:#000;
+		width: 200px;
+	}
+	#page1{
+		-webkit-transform-origin:bottom;
+		-webkit-transform:rotateX(0deg);
+		-webkit-transition:-webkit-transform 1s linear;
+	}
+	#page2,#page3,#page4,#page5{
+		-webkit-transform-origin:bottom;
+		-webkit-transition:-webkit-transform 1s linear;
+		-webkit-transform:rotateX(90deg);
+	}
+	#page2{
+		z-index: -2;
+	}
+	#page3{
+		z-index: -3;
+	}
+	#page4{
+		z-index: -4;
+	}
+	#page5{
+		z-index:-5;
+	}
+#action a{
+	color: #000875;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+}
